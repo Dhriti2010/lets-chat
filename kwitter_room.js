@@ -32,7 +32,7 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
       getData();
       function redirecttoroomname(name){
             console.log(name);
-            localStorage.setItem("roomnname",name);
+            localStorage.setItem("roomname",name);
             window.location="kwitter_page.html"
       }
      
